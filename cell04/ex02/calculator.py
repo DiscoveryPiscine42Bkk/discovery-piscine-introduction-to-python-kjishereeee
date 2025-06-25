@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 num1 = float(input("Give me the first number: "))
 num2 = float(input("Give me the second number: "))
+
 add = num1 + num2
 sub = num1 - num2
 mult = num1 * num2
 div = num1 / num2
+
 print("Thank you!")
 
 if num1 == int(num1):
