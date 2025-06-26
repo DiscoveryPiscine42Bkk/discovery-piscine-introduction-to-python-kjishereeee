@@ -2,9 +2,9 @@
 
 import sys
 
-x = sys.argv[1:]
+x = sys.argv[1]
 
-if len(x) == 0:
+if len(sys.argv) != 2:
     print("none")
 else:
     y = input("What was the parameter? ")
